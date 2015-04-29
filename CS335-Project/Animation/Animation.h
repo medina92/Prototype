@@ -107,6 +107,7 @@ void spriteAnimation(Game *g, int *keys) {
         }
     }
     glEnd();
+    glPopMatrix();
 }
 
 #endif //_Animation_H_
